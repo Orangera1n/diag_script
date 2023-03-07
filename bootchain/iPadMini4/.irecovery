@@ -1,0 +1,15 @@
+_HiStOrY_V2_
+help
+bgcolor\040255\040255\040200
+bgcolor\040255\040255\0400
+bgcolor\040255\0400\040255
+bgcolor\0400\040255\0400
+bgcolor\0400\0400\040255
+/exit
+printenv
+/exit
+setenv\040boot-args\040usbserial=enabled
+saveenv
+printenv
+/exit
+/exit
