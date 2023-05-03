@@ -25,7 +25,7 @@ elif [ "$1" = 'iPad2' ] || [  "$1" = 'iPad2,4' ] || [ "$1" = 'iPad3' ] || [ "$1"
     echo "Loading Diags!"
     echo "If the screen is purple now, you may use your DCSD cable to connect with MagicCFG, or use nanokdp to access the command line at usbserial-XXXXXX"
     echo "You can use sn to write a new serial number in the command line, make sure its valid"
-elif [ "$1" = 'iPhone6' ] || [ "$1" = 'iPhone6S' ] || [ "$1" = 'iPad5s' ] || [ "$1" = 'iPadMini4' ]; then
+elif [ "$1" = 'iPhone6' ] || [ "$1" = 'iPhone6S' ] || || [ "$1" = 'iPhone6St' ] || [ "$1" = 'iPad5s' ] || [ "$1" = 'iPadMini4' ]; then
     echo "Pwning Device"
     ./gaster pwn >/dev/null
     ./gaster reset >/dev/null
