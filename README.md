@@ -5,7 +5,8 @@ Many of them are, infact, hot garbage, such as hiding the diags or using ishitdf
 
 So mine should be better (doesn't support all devices yet, but supports)
 
-supported devices are:
+supported devices are (note you must parse these EXACT arguements when running ./diag.sh):
+
 iPad2
 
 iPad2,4
