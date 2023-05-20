@@ -38,7 +38,7 @@ elif [ "$1" = 'iPhone6' ] || [ "$1" = 'iPhone6P' ] || [ "$1" = 'iPhone6S' ] || [
     echo "Booting Diags"
     ./irecovery -c go
     echo "If the screen is a solid color now, you may use your DCSD cable to connect with MagicCFG, or use nanokdp to access the command line at usbserial-XXXXXX"
-elif [ "$1" = 'iPhoneX' ]||[ "$1" = 'iPhone8P' ]||[ "$1" = 'iPad7' ]; then
+elif [ "$1" = 'iPhoneX' ]||[ "$1" = 'iPhone8P' ]||[ "$1" = 'iPhone8' ]||[ "$1" = 'iPad7' ]; then
     echo "Pwning Device"
     ./gaster pwn >/dev/null
     ./gaster reset >/dev/null
