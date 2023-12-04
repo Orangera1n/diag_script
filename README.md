@@ -19,9 +19,9 @@ iPad5s
 
 iPad7
 
-iPadMini
+iPadMini 
 
-iPadMini4
+iPadMini4 (unreliable)
 
 iPadPro105	
 
@@ -32,6 +32,10 @@ iPhone6P
 iPhone6S
 
 iPhone6St
+
+iPhone7
+
+iPhone7P
 
 iPhone8
 
