@@ -40,7 +40,6 @@ elif [ "$1" = 'iPhone6' ] || [ "$1" = 'iPhone6P' ] || [ "$1" = 'iPadAir2' ] || [
     echo "Booting Diags"
     ./$oscheck/irecovery -c go
     echo "If the screen is a solid color now, you may use your DCSD cable to connect with MagicCFG, or use nanokdp to access the command line at usbserial-XXXXXX"
-elif [ "$1" = 'iPhoneX' ]||[ "$1" = 'iPhone8P' ]||[ "$1" = 'iPhone8' ]||[ "$1" = 'iPad7' ]||[ "$1" = 'iPhone7P' ]||[ "$1" = 'iPhone7' ]; then
 elif [ "$1" = 'iPhoneX' ]||[ "$1" = 'iPhone8P' ]||[ "$1" = 'iPhone8' ]||[ "$1" = 'iPhone7']||[ "$1" = 'iPhone7P']||[ "$1" = 'iPad7' ]; then
     echo "Pwning Device"
     ./$oscheck/gaster pwn >/dev/null
@@ -61,6 +60,9 @@ elif [ "$1" = 'iPadPro105' ]; then
     ./$oscheck/gaster reset >/dev/null
     echo "Sending iBSS"
     ./$oscheck/irecovery -f bootchain/"$1"/iBSS.img4
+    echo "enabling USBSerial"
+    ./$oscheck/irecovery -c "setenv boot-args usbserial=enabled"
+    ./$oscheck/irecovery -c "saveenv"
     echo "Sending Diags"
     ./$oscheck/irecovery -f bootchain/"$1"/diag.img4
     echo "Booting Diags"
