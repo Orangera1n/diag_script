@@ -2,3 +2,4 @@ _HiStOrY_V2_
 setenv\040auto-boot\040true
 saveenv
 reboot
+reset
