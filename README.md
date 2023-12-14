@@ -1,8 +1,12 @@
 # Finally a purple mode tool that isn't dipshit
 
+Usage:
+> diag.sh
 
-Does not support:
 
+
+
+# Unsupported devices
 Will likely never support:
 A12+ devices
 iPad 6 (thanks whoever made the shitty dev ibss that doesn't let diags to be booted with gaster)
