@@ -1,44 +1,36 @@
-#diag_script
-Finally a purple mode tool that isn't hot garbage.
+# Finally a purple mode tool that isn't dipshit
 
-Many of them are, infact, hot garbage, such as hiding the diags or using ishitdfu.
 
-So mine should be better (doesn't support all devices yet, but supports)
+Does not support:
 
-supported devices are (note you must parse these EXACT arguements when running ./diag.sh):
+Will likely never support:
+A12+ devices
+iPad 6 (thanks whoever made the shitty dev ibss that doesn't let diags to be booted with gaster)
+all pre A5 devices
 
-iPad2
+Could support at a later date:
 
-iPad2,4
+iPad Pro A9X
 
-iPad3
+iPad Pro 12.9 inch gen 2
 
-iPad4 
+iPad mini 2
 
-iPad5s
+iPad mini 3
 
-iPad7
+iPad Air 1
 
-iPadMini 
+iPhone 5-5S
 
-iPadMini4 (unreliable)
+iPhone SE (both models)
 
-iPadPro105	
+iPhone 6S+ (both models)
 
-iPhone6
 
-iPhone6P
 
-iPhone6S
 
-iPhone6St
 
-iPhone7
 
-iPhone7P
 
-iPhone8
 
-iPhone8P
 
-iPhoneX
