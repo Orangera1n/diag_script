@@ -1,4 +1,3 @@
-echo "Welcome to @_orangera1n's diag_script"
 oscheck=$(uname)
 deviceid=$("$oscheck"/irecovery -q | grep MODEL | sed 's/MODEL: //')
 cpid=$("$oscheck"/irecovery -q | grep CPID | sed 's/CPID: //')
@@ -8,6 +7,7 @@ if [ ! -e "$oscheck"/gaster ]; then
     unzip gaster-"$oscheck".zip
     mv gaster "$oscheck"/
     rm -rf gaster gaster-"$oscheck".zip
+    chmod 777 "$oscheck"/gaster
 fi
 
 
