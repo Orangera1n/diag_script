@@ -8,8 +8,11 @@ Usage:
 
 # Unsupported devices
 Will likely never support:
-A12+ devices
+
+A12+ devices due to no exploit
+
 iPad 6 (thanks whoever made the shitty dev ibss that doesn't let diags to be booted with gaster)
+
 all pre A5 devices
 
 Could support at a later date:
