@@ -1,42 +1,18 @@
-# Finally a purple mode tool that isn't dipshit
+# Diag_script
+Diags image "purple mode" tool done right 
+# Diags
+Diags is a diagnostic image that is installed on devices, and is used for testing in factories. It is commonly located in /AppleInternal/Diags/bin/diag.img4 for 64 bit devices, or /AppleInternal/Diags/bin/diag.img3 for 32 bit devices.
 
-Usage:
-> diag.sh
+* [TheAppleWiki](https://www.theapplewiki.com/wiki/Diags)
 
+What can it (and usually is) used for is changing SysCFG values (i.e. serial, wmac, bmac)
 
+## Okay but there's tons of other tools that do this
 
-
-# Unsupported devices
-Will likely never support:
-
-A12+ devices due to no exploit
-
-iPad 6 (thanks whoever made the shitty dev ibss that doesn't let diags to be booted with gaster)
-
-all pre A5 devices
-
-Could support at a later date:
-
-iPad Pro A9X
-
-iPad Pro 12.9 inch gen 2
-
-iPad mini 2
-
-iPad mini 3
-
-iPad Air 1
-
-iPhone 5-5S
-
-iPhone SE (both models)
-
-iPhone 6S+ (both models)
-
-
-
-
-
+Well yeah, but, this tool is:
+- MUCH more reliable (doesn't crash randomly leaving you to figure it out on your own)
+- can be used on any mac (even linux to an extent)
+- Open-source (uses existing OSS tools) and not ofsucated
 
 
 
